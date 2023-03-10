@@ -1,0 +1,38 @@
+.title{
+    margin-left: 40px;
+}
+
+.list{
+    margin-left: 40px;
+}
+
+.ul{
+    list-style: none;
+    
+    
+}
+
+.li{
+    display: flex;
+    gap: 24px;
+    width: 340px;
+    justify-content: space-between;
+    padding-left: 8px;
+}
+
+.li:nth-child(even){
+    background-color: burlywood;
+}
+
+.li:nth-child(odd){
+    background-color: tomato;
+}
+
+.button{
+    height: 24px;
+    margin-top: 14px;
+    border: none;
+    border-radius: 10px;
+    width: 62px;
+    margin-right: 8px;
+}

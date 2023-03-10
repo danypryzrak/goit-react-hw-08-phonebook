@@ -1,0 +1,38 @@
+.Form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 40px auto 0 40px;
+    border: 1px solid black;
+    width: 400px;
+    padding: 10px;
+    align-items: center;
+    border-radius: 3%;
+    background-color: tomato;
+}
+
+.title{
+    margin-left: 40px;
+}
+
+.button{
+    width: 120px;
+    border-radius: 6px;
+    border: none;
+    background-color: rgb(203, 61, 61);
+}
+
+.label{
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.input{
+    width: 240px;
+    background-color: burlywood;
+    border: none;
+    border-radius: 10px;
+}
+

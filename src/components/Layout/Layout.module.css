@@ -1,0 +1,7 @@
+.header{
+    background-color: burlywood;
+    margin: 0;
+    padding: 24px 16px 16px 16px;
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,19 @@
+.filter{
+    margin-top: 20px;
+    margin-left: 44px;
+    padding: 8px;
+    border: 0.5px solid black;
+    width: 400px;
+    border-radius: 10px;
+    background-color: burlywood;
+}
+
+.label{
+    display: flex;
+    gap: 16px;
+}
+
+.input {
+    border-radius: 10px;
+    background-color: tomato;
+}

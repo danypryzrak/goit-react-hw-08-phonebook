@@ -1,0 +1,38 @@
+.form{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 0 16px 0 16px;
+    margin-top: 40px;
+    margin-left: 24px;
+}
+
+.div{
+   width: 100%;
+   background-color: tomato;
+   padding: 24px;
+}
+
+.link{
+    color: tomato;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.linkMain{
+    color: black;
+    font-size: x-large;
+    
+}
+
+.button{
+    width: 160px;
+    border: none;
+    border-radius: 10px;
+    background-color: brown;
+    height: 60px;
+}

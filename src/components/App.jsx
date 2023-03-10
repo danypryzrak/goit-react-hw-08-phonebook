@@ -1,13 +1,13 @@
-import ContactsList from 'components/Pages/Contacts/ContactsList'
+import ContactsList from 'Pages/Contacts/ContactsList'
 import { useDispatch} from "react-redux";
 import { useEffect } from "react";
 import { Layout } from "./Layout/Layout";
-import { Main } from "./Pages/Main/Main";
+import { Main } from "../Pages/Main/Main";
 import { Route, Routes } from "react-router-dom";
 import { PublickRoute } from "./PublickRoute/PublickRoute";
-import { Login } from "./Pages/Login/Login";
+import { Login } from "../Pages/Login/Login";
 import { PrivateRoute } from "./PrivateRote/PrivateRoute";
-import { Registartion} from "./Pages/Registration/Registration";
+import { Registartion} from "../Pages/Registration/Registration";
 import { currentThunk } from "redux/auth/authThunk";
 
 
@@ -26,7 +26,6 @@ export const App = () =>{
         <Route path="contacts" element={<PrivateRoute><ContactsList /></PrivateRoute>} />
       </Route>
       <Route path='/logIn' element={<PublickRoute><Login /></PublickRoute>} />
-      <Route path='/registration' element={<Registartion />} />
+      <Route path='/registration' element={<PublickRoute><Registartion /></PublickRoute>} />
     </Routes>
-    )
-  }
+  )}

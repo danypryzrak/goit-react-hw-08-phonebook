@@ -22,6 +22,10 @@
     background-color: rgb(203, 61, 61);
 }
 
+.button:hover{
+    cursor: pointer;
+}
+
 .label{
     display: flex;
     gap: 16px;

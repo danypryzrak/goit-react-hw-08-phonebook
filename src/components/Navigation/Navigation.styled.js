@@ -8,6 +8,11 @@ text-decoration: none;
 &.active {
     color: tomato;
 }
+
+&:hover{
+    color: tomato;
+    cursor: pointer;
+}
 `;
 
 export const StyledUl = styled.ul`

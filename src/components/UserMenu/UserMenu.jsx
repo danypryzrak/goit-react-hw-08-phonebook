@@ -1,6 +1,7 @@
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { logOutThunk } from 'redux/auth/authThunk'
+import css from './UserMenu.module.css'
 
 export const UserMenu = () => {
   
@@ -11,7 +12,7 @@ export const UserMenu = () => {
   return (
   <div>
       <p>Hello, {name}</p>
-  <button onClick={onLogOut}>Logout</button>
+  <button className={css.button} onClick={onLogOut}>Logout</button>
   </div>
   )
 }
